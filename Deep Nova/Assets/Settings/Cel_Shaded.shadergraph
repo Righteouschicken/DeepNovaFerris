@@ -1,0 +1,651 @@
+{
+    "m_SGVersion": 3,
+    "m_Type": "UnityEditor.ShaderGraph.GraphData",
+    "m_ObjectId": "44d9ae955ed24ca288070a83a5ba2568",
+    "m_Properties": [],
+    "m_Keywords": [],
+    "m_Dropdowns": [],
+    "m_CategoryData": [
+        {
+            "m_Id": "be73c21b18bc4404a7c8b80c4df7cf8e"
+        }
+    ],
+    "m_Nodes": [
+        {
+            "m_Id": "3740537a6d204b38aea3d3569f1daec4"
+        },
+        {
+            "m_Id": "a874a2da414c412bbfa285d45cdd8635"
+        },
+        {
+            "m_Id": "5316ef99643840a79c1c1fc93a33f90f"
+        },
+        {
+            "m_Id": "59ae551bf1c94527a29813ebd33f5da8"
+        },
+        {
+            "m_Id": "77d68394960b4bc5b360737649f994d1"
+        },
+        {
+            "m_Id": "39270d543756489a8378bdad28abb9a5"
+        }
+    ],
+    "m_GroupDatas": [],
+    "m_StickyNoteDatas": [],
+    "m_Edges": [],
+    "m_VertexContext": {
+        "m_Position": {
+            "x": 607.0000610351563,
+            "y": -44.0
+        },
+        "m_Blocks": [
+            {
+                "m_Id": "3740537a6d204b38aea3d3569f1daec4"
+            },
+            {
+                "m_Id": "a874a2da414c412bbfa285d45cdd8635"
+            },
+            {
+                "m_Id": "5316ef99643840a79c1c1fc93a33f90f"
+            }
+        ]
+    },
+    "m_FragmentContext": {
+        "m_Position": {
+            "x": 515.0,
+            "y": 249.0
+        },
+        "m_Blocks": [
+            {
+                "m_Id": "59ae551bf1c94527a29813ebd33f5da8"
+            }
+        ]
+    },
+    "m_PreviewData": {
+        "serializedMesh": {
+            "m_SerializedMesh": "{\"mesh\":{\"instanceID\":0}}",
+            "m_Guid": ""
+        },
+        "preventRotation": false
+    },
+    "m_Path": "Shader Graphs",
+    "m_GraphPrecision": 0,
+    "m_PreviewMode": 2,
+    "m_OutputNode": {
+        "m_Id": ""
+    },
+    "m_ActiveTargets": [
+        {
+            "m_Id": "ebd6797fd87c49249fcd2e42c28f3d5f"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "017d98693ad64bcda5d38c4c710771ca",
+    "m_Id": 0,
+    "m_DisplayName": "WorldPos",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "WorldPos",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "035080601b654a8cbc75dbce0dbefeec",
+    "m_Id": 3,
+    "m_DisplayName": "DistanceAtten",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "DistanceAtten",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "0b9294c297b442d2b31914129ee66e94",
+    "m_Id": 4,
+    "m_DisplayName": "ShadowAtten",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "ShadowAtten",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalUnlitSubTarget",
+    "m_ObjectId": "1c4260b814214a398c7f3d801af0dc20"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "3740537a6d204b38aea3d3569f1daec4",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "VertexDescription.Position",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "e5296241d5114cecb2c59c6102bac8dc"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "VertexDescription.Position"
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
+    "m_ObjectId": "39270d543756489a8378bdad28abb9a5",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "MainLight (Custom Function)",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -520.0,
+            "y": 409.0000305175781,
+            "width": 211.00003051757813,
+            "height": 349.9999694824219
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "cde90ec426f64b5fb7a2c0c3afaf0cfa"
+        },
+        {
+            "m_Id": "a1364e3d4fab479a960da93b76c2d37a"
+        },
+        {
+            "m_Id": "9ef8a8306475476cb1fc35c1056cb041"
+        },
+        {
+            "m_Id": "5a94292d8e744fde963492b8b88d2636"
+        },
+        {
+            "m_Id": "0b9294c297b442d2b31914129ee66e94"
+        }
+    ],
+    "synonyms": [
+        "code",
+        "HLSL"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SourceType": 0,
+    "m_FunctionName": "MainLight",
+    "m_FunctionSource": "4bcf024ff87a2354ab816d4812ef979b",
+    "m_FunctionBody": "void MainLight_float(float3 WorldPos, out float3 Direction, out float3 Color, \r\n\tout float DistanceAtten, out float ShadowAtten)\r\n{\r\n#ifdef SHADERGRAPH_PREVIEW\r\n    Direction = normalize(float3(0.5f, 0.5f, 0.25f));\r\n    Color = float3(1.0f, 1.0f, 1.0f);\r\n    DistanceAtten = 1.0f;\r\n    ShadowAtten = 1.0f;\r\n#else\r\n    float4 shadowCoord = TransformWorldToShadowCoord(WorldPos);\r\n    Light mainLight = GetMainLight(shadowCoord);\r\n \r\n    Direction = mainLight.direction;\r\n    Color = mainLight.color;\r\n    DistanceAtten = mainLight.distanceAttenuation;\r\n    ShadowAtten = mainLight.shadowAttenuation;\r\n#endif\r\n}\r\n\r\nvoid MainLight_half(half3 WorldPos, out half3 Direction, out half3 Color, \r\n\tout half DistanceAtten, out half ShadowAtten)\r\n{\r\n#ifdef SHADERGRAPH_PREVIEW\r\n    Direction = normalize(half3(0.5f, 0.5f, 0.25f));\r\n    Color = half3(1.0f, 1.0f, 1.0f);\r\n    DistanceAtten = 1.0f;\r\n    ShadowAtten = 1.0f;\r\n#else\r\n    half4 shadowCoord = TransformWorldToShadowCoord(WorldPos);\r\n    Light mainLight = GetMainLight(shadowCoord);\r\n \r\n    Direction = mainLight.direction;\r\n    Color = mainLight.color;\r\n    DistanceAtten = mainLight.distanceAttenuation;\r\n    ShadowAtten = mainLight.shadowAttenuation;\r\n#endif\r\n}\r\n\r\nvoid AdditionalLight_float(float3 WorldPos, int Index, out float3 Direction, \r\n\tout float3 Color, out float DistanceAtten, out float ShadowAtten)\r\n{\r\n    Direction = normalize(float3(0.5f, 0.5f, 0.25f));\r\n    Color = float3(0.0f, 0.0f, 0.0f);\r\n    DistanceAtten = 0.0f;\r\n    ShadowAtten = 0.0f;\r\n\r\n#ifndef SHADERGRAPH_PREVIEW\r\n    int pixelLightCount = GetAdditionalLightsCount();\r\n    if(Index < pixelLightCount)\r\n    {\r\n        Light light = GetAdditionalLight(Index, WorldPos);\r\n    \r\n        Direction = light.direction;\r\n        Color = light.color;\r\n        DistanceAtten = light.distanceAttenuation;\r\n        ShadowAtten = light.shadowAttenuation;\r\n    }\r\n#endif\r\n}\r\n\r\nvoid AdditionalLight_half(half3 WorldPos, int Index, out half3 Direction,\r\n\tout half3 Color, out half DistanceAtten, out half ShadowAtten)\r\n{\r\n\tDirection = normalize(half3(0.5f, 0.5f, 0.25f));\r\n\tColor = half3(0.0f, 0.0f, 0.0f);\r\n\tDistanceAtten = 0.0f;\r\n\tShadowAtten = 0.0f;\r\n\r\n#ifndef SHADERGRAPH_PREVIEW\r\n\tint pixelLightCount = GetAdditionalLightsCount();\r\n\tif (Index < pixelLightCount)\r\n\t{\r\n\t\tLight light = GetAdditionalLight(Index, WorldPos);\r\n\r\n\t\tDirection = light.direction;\r\n\t\tColor = light.color;\r\n\t\tDistanceAtten = light.distanceAttenuation;\r\n\t\tShadowAtten = light.shadowAttenuation;\r\n\t}\r\n#endif\r\n}"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "5316ef99643840a79c1c1fc93a33f90f",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "VertexDescription.Tangent",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "bb7afd24dc4146a8b5f5fba898cb6281"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "VertexDescription.Tangent"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "59ae551bf1c94527a29813ebd33f5da8",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "SurfaceDescription.BaseColor",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "75053b78fd0a429a9a9cec64ebb4037f"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "5a94292d8e744fde963492b8b88d2636",
+    "m_Id": 3,
+    "m_DisplayName": "DistanceAtten",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "DistanceAtten",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
+    "m_ObjectId": "75053b78fd0a429a9a9cec64ebb4037f",
+    "m_Id": 0,
+    "m_DisplayName": "Base Color",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "BaseColor",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.5,
+        "y": 0.5,
+        "z": 0.5
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_ColorMode": 0,
+    "m_DefaultColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
+    "m_ObjectId": "77d68394960b4bc5b360737649f994d1",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "MainLight (Custom Function)",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -508.00006103515627,
+            "y": -33.000003814697269,
+            "width": 211.00003051757813,
+            "height": 350.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "017d98693ad64bcda5d38c4c710771ca"
+        },
+        {
+            "m_Id": "cf24292faff649edb479a554133e60de"
+        },
+        {
+            "m_Id": "7bd90372370f4e6294006ec84f4687a9"
+        },
+        {
+            "m_Id": "035080601b654a8cbc75dbce0dbefeec"
+        },
+        {
+            "m_Id": "84a317c3f47a476882194f82eb2d03d8"
+        }
+    ],
+    "synonyms": [
+        "code",
+        "HLSL"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SourceType": 0,
+    "m_FunctionName": "MainLight",
+    "m_FunctionSource": "4bcf024ff87a2354ab816d4812ef979b",
+    "m_FunctionBody": "void MainLight_float(float3 WorldPos, out float3 Direction, out float3 Color, \r\n\tout float DistanceAtten, out float ShadowAtten)\r\n{\r\n#ifdef SHADERGRAPH_PREVIEW\r\n    Direction = normalize(float3(0.5f, 0.5f, 0.25f));\r\n    Color = float3(1.0f, 1.0f, 1.0f);\r\n    DistanceAtten = 1.0f;\r\n    ShadowAtten = 1.0f;\r\n#else\r\n    float4 shadowCoord = TransformWorldToShadowCoord(WorldPos);\r\n    Light mainLight = GetMainLight(shadowCoord);\r\n \r\n    Direction = mainLight.direction;\r\n    Color = mainLight.color;\r\n    DistanceAtten = mainLight.distanceAttenuation;\r\n    ShadowAtten = mainLight.shadowAttenuation;\r\n#endif\r\n}\r\n\r\nvoid MainLight_half(half3 WorldPos, out half3 Direction, out half3 Color, \r\n\tout half DistanceAtten, out half ShadowAtten)\r\n{\r\n#ifdef SHADERGRAPH_PREVIEW\r\n    Direction = normalize(half3(0.5f, 0.5f, 0.25f));\r\n    Color = half3(1.0f, 1.0f, 1.0f);\r\n    DistanceAtten = 1.0f;\r\n    ShadowAtten = 1.0f;\r\n#else\r\n    half4 shadowCoord = TransformWorldToShadowCoord(WorldPos);\r\n    Light mainLight = GetMainLight(shadowCoord);\r\n \r\n    Direction = mainLight.direction;\r\n    Color = mainLight.color;\r\n    DistanceAtten = mainLight.distanceAttenuation;\r\n    ShadowAtten = mainLight.shadowAttenuation;\r\n#endif\r\n}\r\n\r\nvoid AdditionalLight_float(float3 WorldPos, int Index, out float3 Direction, \r\n\tout float3 Color, out float DistanceAtten, out float ShadowAtten)\r\n{\r\n    Direction = normalize(float3(0.5f, 0.5f, 0.25f));\r\n    Color = float3(0.0f, 0.0f, 0.0f);\r\n    DistanceAtten = 0.0f;\r\n    ShadowAtten = 0.0f;\r\n\r\n#ifndef SHADERGRAPH_PREVIEW\r\n    int pixelLightCount = GetAdditionalLightsCount();\r\n    if(Index < pixelLightCount)\r\n    {\r\n        Light light = GetAdditionalLight(Index, WorldPos);\r\n    \r\n        Direction = light.direction;\r\n        Color = light.color;\r\n        DistanceAtten = light.distanceAttenuation;\r\n        ShadowAtten = light.shadowAttenuation;\r\n    }\r\n#endif\r\n}\r\n\r\nvoid AdditionalLight_half(half3 WorldPos, int Index, out half3 Direction,\r\n\tout half3 Color, out half DistanceAtten, out half ShadowAtten)\r\n{\r\n\tDirection = normalize(half3(0.5f, 0.5f, 0.25f));\r\n\tColor = half3(0.0f, 0.0f, 0.0f);\r\n\tDistanceAtten = 0.0f;\r\n\tShadowAtten = 0.0f;\r\n\r\n#ifndef SHADERGRAPH_PREVIEW\r\n\tint pixelLightCount = GetAdditionalLightsCount();\r\n\tif (Index < pixelLightCount)\r\n\t{\r\n\t\tLight light = GetAdditionalLight(Index, WorldPos);\r\n\r\n\t\tDirection = light.direction;\r\n\t\tColor = light.color;\r\n\t\tDistanceAtten = light.distanceAttenuation;\r\n\t\tShadowAtten = light.shadowAttenuation;\r\n\t}\r\n#endif\r\n}"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "7bd90372370f4e6294006ec84f4687a9",
+    "m_Id": 2,
+    "m_DisplayName": "Color",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Color",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "84a317c3f47a476882194f82eb2d03d8",
+    "m_Id": 4,
+    "m_DisplayName": "ShadowAtten",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "ShadowAtten",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "9ef8a8306475476cb1fc35c1056cb041",
+    "m_Id": 2,
+    "m_DisplayName": "Color",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Color",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "a1364e3d4fab479a960da93b76c2d37a",
+    "m_Id": 1,
+    "m_DisplayName": "Direction",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Direction",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
+    "m_ObjectId": "a874a2da414c412bbfa285d45cdd8635",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "VertexDescription.Normal",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "fe46591e26a34a1782ed4d4d7e2f97b4"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedDescriptor": "VertexDescription.Normal"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.TangentMaterialSlot",
+    "m_ObjectId": "bb7afd24dc4146a8b5f5fba898cb6281",
+    "m_Id": 0,
+    "m_DisplayName": "Tangent",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Tangent",
+    "m_StageCapability": 1,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "be73c21b18bc4404a7c8b80c4df7cf8e",
+    "m_Name": "",
+    "m_ChildObjectList": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "cde90ec426f64b5fb7a2c0c3afaf0cfa",
+    "m_Id": 0,
+    "m_DisplayName": "New",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "New",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "cf24292faff649edb479a554133e60de",
+    "m_Id": 1,
+    "m_DisplayName": "Direction",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Direction",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PositionMaterialSlot",
+    "m_ObjectId": "e5296241d5114cecb2c59c6102bac8dc",
+    "m_Id": 0,
+    "m_DisplayName": "Position",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Position",
+    "m_StageCapability": 1,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 0
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.Rendering.Universal.ShaderGraph.UniversalTarget",
+    "m_ObjectId": "ebd6797fd87c49249fcd2e42c28f3d5f",
+    "m_ActiveSubTarget": {
+        "m_Id": "1c4260b814214a398c7f3d801af0dc20"
+    },
+    "m_AllowMaterialOverride": false,
+    "m_SurfaceType": 0,
+    "m_ZTestMode": 4,
+    "m_ZWriteControl": 0,
+    "m_AlphaMode": 0,
+    "m_RenderFace": 2,
+    "m_AlphaClip": false,
+    "m_CastShadows": true,
+    "m_ReceiveShadows": true,
+    "m_CustomEditorGUI": "",
+    "m_SupportVFX": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
+    "m_ObjectId": "fe46591e26a34a1782ed4d4d7e2f97b4",
+    "m_Id": 0,
+    "m_DisplayName": "Normal",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Normal",
+    "m_StageCapability": 1,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": [],
+    "m_Space": 0
+}
+
